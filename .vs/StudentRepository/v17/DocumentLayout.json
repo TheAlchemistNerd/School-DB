@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{96465EEC-9E3D-42B4-B1E6-E199D8DE2EF1}|StudentRepository.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{96465EEC-9E3D-42B4-B1E6-E199D8DE2EF1}|StudentRepository.csproj|c:\\users\\nevo\\source\\repos\\studentrepository\\jsonfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96465EEC-9E3D-42B4-B1E6-E199D8DE2EF1}|StudentRepository.csproj|solutionrelative:jsonfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{96465EEC-9E3D-42B4-B1E6-E199D8DE2EF1}|StudentRepository.csproj|c:\\users\\nevo\\source\\repos\\studentrepository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96465EEC-9E3D-42B4-B1E6-E199D8DE2EF1}|StudentRepository.csproj|solutionrelative:studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,19 +38,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "JsonFileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nevo\\source\\repos\\StudentRepository\\JsonFileRepository.cs",
+              "RelativeDocumentMoniker": "JsonFileRepository.cs",
+              "ToolTip": "C:\\Users\\Nevo\\source\\repos\\StudentRepository\\JsonFileRepository.cs",
+              "RelativeToolTip": "JsonFileRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:08:15.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "StudentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Nevo\\source\\repos\\StudentRepository\\StudentRepository.cs",
               "RelativeDocumentMoniker": "StudentRepository.cs",
               "ToolTip": "C:\\Users\\Nevo\\source\\repos\\StudentRepository\\StudentRepository.cs",
               "RelativeToolTip": "StudentRepository.cs",
-              "ViewState": "AQIAABwAAAAA/v///3/UvwAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T10:08:15.999Z",
+              "WhenOpened": "2025-05-28T12:30:27.433Z",
               "EditorCaption": ""
             },
             {
@@ -57,19 +74,19 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Nevo\\source\\repos\\StudentRepository\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAmwCMAAAAAAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAA0AAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T09:54:20.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Nevo\\source\\repos\\StudentRepository\\IRepository.cs",
               "RelativeDocumentMoniker": "IRepository.cs",
-              "ToolTip": "C:\\Users\\Nevo\\source\\repos\\StudentRepository\\IRepository.cs*",
-              "RelativeToolTip": "IRepository.cs*",
+              "ToolTip": "C:\\Users\\Nevo\\source\\repos\\StudentRepository\\IRepository.cs",
+              "RelativeToolTip": "IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T11:56:14.507Z",
@@ -77,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\Nevo\\source\\repos\\StudentRepository\\Student.cs",
               "RelativeDocumentMoniker": "Student.cs",
@@ -90,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\Nevo\\source\\repos\\StudentRepository\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -103,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "students.json",
               "DocumentMoniker": "C:\\Users\\Nevo\\source\\repos\\StudentRepository\\bin\\Debug\\net8.0\\students.json",
               "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\students.json",

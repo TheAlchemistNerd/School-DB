@@ -37,6 +37,7 @@ wwwroot/
 # Ignore packages folder (NuGet packages)
 packages/
 *.vsidx
+.vs/
 
 # Ignore ReSharper files
 _ReSharper*/

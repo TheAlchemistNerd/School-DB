@@ -1,7 +1,6 @@
 ﻿
 using System.Text.Json;
 
-
 namespace StudentRepository
 {
     public class StudentRepository : IRepository<Student>

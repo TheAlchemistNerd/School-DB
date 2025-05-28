@@ -7,8 +7,11 @@
             // Define file path
             string filePath = "students.json";
 
+
             //Create repository
-            StudentRepository repository = new StudentRepository(filePath);
+            // StudentRepository repository = new StudentRepository(filePath);
+            // Create a generic JSON file repository for Student
+            IRepository<Student> repository = new JsonFileRepository<Student>(filePath);
 
             // Create and save multiple students
             List<Student> newStudents = new List<Student>
@@ -33,7 +36,7 @@
             {
                 Console.WriteLine($"ID: {s.Id}, Name: {s.Name}, Age: {s.Age}");
             }
-
+            
             Console.ReadKey();
         }
     }
