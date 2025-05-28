@@ -1,0 +1,61 @@
+# Ignore build results
+bin/
+obj/
+out/
+
+# Ignore Visual Studio temporary files, build results, and user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore Rider settings
+.idea/
+
+# VS Code settings
+.vscode/
+
+# Ignore .NET Core secrets and config
+secrets.json
+
+# Ignore ASP.NET published files
+wwwroot/
+
+# Ignore .NET generated files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Ignore packages folder (NuGet packages)
+packages/
+*.vsidx
+
+# Ignore ReSharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Ignore test results
+TestResults/
+
+# Ignore node_modules (in case JS is involved)
+node_modules/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore custom data files
+students.json
