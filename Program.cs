@@ -27,7 +27,7 @@
             }
 
             // Read and display all students
-            List<Student> students = repository.GetAllStudents();
+            List<Student> students = repository.GetAll();
             Console.WriteLine("\nAll Students:");
             foreach (var s in students)
             {

@@ -4,7 +4,7 @@ using System.Text.Json;
 
 namespace StudentRepository
 {
-    public class StudentRepository
+    public class StudentRepository : IRepository<Student>
     {
         private readonly string filePath;
 
@@ -15,12 +15,12 @@ namespace StudentRepository
 
         public void Save(Student student)
         {
-            List<Student> students = GetAllStudents();
+            List<Student> students = GetAll();
             students.Add(student);
-            SaveStudents(students);
+            SaveAll(students);
         }
 
-        public List<Student> GetAllStudents()
+        public List<Student> GetAll()
         {
             if (!File.Exists(filePath))
                 return new List<Student>();
@@ -29,7 +29,7 @@ namespace StudentRepository
             return JsonSerializer.Deserialize<List<Student>>(json) ?? new List<Student>();
         }
 
-        public void SaveStudents(List<Student> students)
+        public void SaveAll(List<Student> students)
         {
             var options = new JsonSerializerOptions { WriteIndented = true };
             string json = JsonSerializer.Serialize(students, options);
